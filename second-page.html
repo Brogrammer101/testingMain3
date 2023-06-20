@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8"
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Website</title>
+            <style>
+                body {
+                    background-color:darkslategray
+                }
+            </style>
+        </head>
+        <head>
+            <body>
+
+                    <style>
+                        h1 {
+                    font-size: 50px;
+                }
+
+                .indent-1 {
+                    padding-left: 350px;
+                }
+                    </style>
+
+            <main>
+                <section>
+                    <h1 style="color: white" class="indent-1">Second Page</h1>
+                </section>
+            </main>
+
+            <head>
+                <section>
+                    <h2 style="color: white">Thank you for checking out the second page!!!</h2>
+                </section>
+            </head>
+
+            <head>
+                <style>
+                    .fade-out {
+                        opacity: 0;
+                        transition: opacity 0.5s ease-in-out;
+                    }
+                </style>
+               </head> 
+        
+            
+                <script>
+                    document.addEventListener("DOMContentLoaded", function() {
+          var links = document.querySelectorAll("a");
+        
+          links.forEach(function(link) {
+            link.addEventListener("click", function(event) {
+              event.preventDefault();
+              document.body.classList.add("fade-out");
+              setTimeout(function() {
+                window.location.href = link.href;
+              }, 425);
+            });
+          });
+        });
+                 
+                </script>
+            
+
+            <head>
+                <nav>
+                   <ul>
+                        <li><a style="color: white" href="MainWebPage.html">Go Back To Main Page</a></li>
+                   </ul>
+                </nav>
+            </head>
+                   
+            </body>
+        </head>
+    </html>
